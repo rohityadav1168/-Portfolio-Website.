@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  display: flex; 
+  justify-content: center; 
+  position: relative; 
+  align-items: center;
+  overflow: hidden;
+  background-color: #000000f1;
+  height: 70px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: yellowgreen;
+  color: black;
+  border-radius: 10px;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.center {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-evenly; 
+  align-items: center;
+  margin-top: 0%;
+}
+
+.firstcenter {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.box {
+  border: 1px; 
+  border-radius: 10px;
+  background-color: rgb(236, 227, 217);
+  width: 300px; 
+  height: 300px;
+  text-align:center;
+  position: relative;
+}
+
+.aboutus {
+  margin-top: 20px;
+  width: 300px; 
+  height: 200px;
+  text-align:center;
+  position: relative;
+}
+
+.btn {
+  position: absolute; 
+  margin-left: 115px;
+  margin-bottom: 20PX; 
+  bottom: 0;
+}
+button {
+  height: 2rem;
+}
+
+.heading {
+  color: purple;
+}
+
+.textbody {
+  padding: 20px 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: green;
+}
+
+.contactUs {
+   position: relative;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  border: 1px solid black; 
+  border-radius: 10px;
+  width: 600px; 
+  height: 700px;
+  background-color: rgb(42, 143, 42);
+}
+
+input {
+  height: 30px;
+}
+
+.researchSec {
+  margin-top: 7%;
+  margin-left: 35%;
+}
+
+.blogcontent {
+  width: 60%;
+}
+
+/* .center2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  left: 0;
+} */
